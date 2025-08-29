@@ -20,7 +20,7 @@ export default function SideBar({ open, onClose }) {
       <NavLink to={ROUTES.USER.MYPAGE} className=" ml-4 mt-4 hover:text-blue-500">
         마이페이지
       </NavLink>
-      <NavLink to={ROUTES.PROJECT.GUTESTBOOK} className=" ml-4 mt-4 hover:text-blue-500">
+      <NavLink to={ROUTES.PROJECT.GUESTBOOK} className=" ml-4 mt-4 hover:text-blue-500">
         방명록
       </NavLink>
       <button className="mt-4 bg-gray-200 px-3 py-1 rounded" onClick={onClose}>
