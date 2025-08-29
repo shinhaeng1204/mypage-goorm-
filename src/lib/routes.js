@@ -11,6 +11,7 @@ export const ROUTES = {
   PROJECT: {
     ROOT: "/project",
     SWITHCASH: "/project/switchcash",
+    GUESTBOOK: "/project/guestbook",
   },
   PRATICE: {
     PRATICE: "/pratice",
